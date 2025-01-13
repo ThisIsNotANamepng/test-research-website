@@ -10,7 +10,29 @@
 
   <!-- Optional: If you're using SCSS -->
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+<style>
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.1);  /* Semi-transparent background */
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;  /* Text color */
+  font-weight: bold;
+  font-size: 16px;
+}
 
+.badge img {
+  height: 20px;
+  width: auto;
+  margin-right: 8px;
+}
+
+.badge span {
+  font-size: 14px;
+}
+</style>
 </head>
 <body>
 
