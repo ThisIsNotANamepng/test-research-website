@@ -16,6 +16,11 @@
 
   {{ content }}
 
+<a href="https://example.com" class="badge" target="_blank">
+  <img src="/assets/images/jane.svg" alt="Badge Image">
+  Example Badge
+</a>
+
 </body>
 </html>
 
